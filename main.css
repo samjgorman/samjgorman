@@ -1,0 +1,251 @@
+
+:root{
+    --main-red: #fe938c;
+    --bg-grey: #eeeeee;
+    --dark-blue: #294667;
+}
+
+#index {
+    margin: 0px;
+}
+
+#about {
+        margin: 0px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 4vh;
+  padding: 0;
+  overflow: hidden;
+    font-size: 1.5em;
+}
+
+#logo  {
+  font-family: Rubik;
+      font-weight: 900;
+    margin-left: 8vw;
+    font-size: 1.8em;
+
+}
+
+#logo-red{
+    color: var(--main-red);
+     font-family: Rubik;
+      font-weight: 900;
+    margin-left: 8vw;
+    font-size: 1.8em;
+}
+
+#rest-red {
+    color: var(--dark-blue);
+}
+
+#rest-red:hover {
+        color: var(--main-red);
+
+}
+
+li {
+  float: left;
+}
+
+.rest{
+    margin-left: 60vw;
+}
+li a {
+    font-family: Overpass;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+li a:hover {
+  color: #294667;
+}
+
+h1 {
+    font-family: Overpass;
+}
+
+p {
+    font-family: Open Sans;
+      line-height: 2;
+
+}
+
+h3 {
+    font-family: Open Sans;
+    font-weight: normal;
+}
+
+.section-one-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+.container-bg {
+  z-index: -3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 40em;
+  background-color: #fe938c;
+  transform: skewY(3deg);
+  transform-origin: bottom right;    
+    
+}
+
+.section-left {
+    display: flex;
+    flex-direction:column;
+    color: white;
+
+}
+
+#header-title {
+    font-size: 100px;
+    margin-bottom: 0em;
+
+
+}
+
+.section-right {
+    display: flex;
+        margin-left: 10em
+}
+
+img {
+    height: 50vh;
+}
+
+#button-one {
+    background-color: #FF8C42;
+    color: white;
+}
+
+#index-styling {
+    color: white;
+}
+
+.header-text {
+    font-size: 1.4em;
+
+}
+
+#header-img {
+height: 25vh;
+padding: 6vh;
+}
+.section-two-container {
+    
+    
+}
+
+#micro-scholarships {
+        padding-top: 20em;
+}
+
+.case-study {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10em;
+    
+}
+
+.case-study-text {
+    flex-direction: row;
+    margin-left: 10em;
+}
+
+.case-study-image {
+    flex-direction: row;
+}
+
+#cs1 {
+padding-left: 10vw;
+}
+
+#cs2 {
+padding-left: 10vw;
+}
+
+#onboarding-ui {
+    background-color: black;
+    color: white;
+    
+}
+
+.button{
+    margin-top: 5vh;
+    background-color: #e048ff;
+     line-height: 10vh;
+     text-align: center;
+    width: 20vw;
+  height: 10vh;
+  box-shadow: 0 4px 25px 0 rgba(66, 66, 66, 0.5);
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-weight: 900;
+}
+
+
+
+.footer {
+    background-color: var(--bg-grey);
+    padding: 2em;
+    font-family: Overpass;
+}
+
+/*Adding code for about page desktop */
+#sl-about {
+    color: black;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+
+}
+
+.slant {
+  background-color: #294667;
+  width: 100%;
+  height: 10em;
+  transform: skewY(3deg);
+  transform-origin: top left; 
+}
+
+#social{
+   
+
+}
+
+.fa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+  padding-right: 40px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  
+
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
