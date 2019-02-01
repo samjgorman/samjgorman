@@ -133,6 +133,16 @@ img {
 #button-one {
     background-color: #FF8C42;
     color: white;
+    text-decoration: none;
+}
+
+#button-one:hover {
+    background-color: #CA6F35;
+}
+
+#button-one:visited {
+        text-decoration: none;
+
 }
 
 #index-styling {
@@ -199,6 +209,13 @@ padding-left: 10vw;
     text-transform: uppercase;
     font-family: Open Sans;
     font-weight: 900;
+    text-decoration: none;
+}
+
+.button::visited {
+    color: white;
+        text-decoration: none;
+
 }
 
 
