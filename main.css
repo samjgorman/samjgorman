@@ -164,14 +164,17 @@ padding: 6vh;
 }
 
 #micro-scholarships {
-        padding-top: 20em;
+        
 }
 
 .case-study {
     display: flex;
     flex-direction: row;
     margin: auto;
-    padding: 10em;
+    padding-bottom: 10em;
+    padding-top: 24vh;
+
+    /* padding-top: 10em; */
     
 }
 
@@ -272,7 +275,6 @@ padding-left: 10vw;
     .section-one-container {
         display: flex;
         flex-direction: column-reverse;
-        
         justify-content: center; 
 
     }
@@ -283,30 +285,84 @@ padding-left: 10vw;
     #about-content{
         padding: 5vw;
         margin-left: auto;
-                margin-right: auto;
-
-
+        margin-right: auto;
 
     }
     
     h1 {
-        font-size: 52px;
+        font-size: 42px;
     }
     
     p {
         font-size: 16px;
     }
     
-    #about-image-container{
-margin: auto;
+    .header-text {
+        font-size: 18px;
     }
     
-    .
+    #about-image-container{
+        margin: auto;
+    }
+    
+    
     
     #about-image {
     
-    height: 5vh;
+    height: 40vh;
     }
     
+    
+    /* making launch responsive */
+    #header-img {
+        display: none;
+        
+    }
+    
+    #header-title {
+        font-size: 64px;
+    }
+    
+    .case-study {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+    
+    .section-two-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #case-image-one {
+        height: 30vh;
+        padding-top: 5vh;
+    }
+    
+    #case-image-two {
+        height: 30vh;
+        
+    }
+    
+    .case-study-text {
+    flex-direction: row;
+    margin-left: 15vw;
+}
+    
+    #micro-scholarships {
+        padding-top: 20vw;
+}
+    
+    .button {
+        height: 10vh;
+        width: 40vw;
+    }
+    
+    .button-text {
+        
+    }
     
 }
