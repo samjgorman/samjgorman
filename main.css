@@ -185,6 +185,7 @@ padding: 6vh;
 
 .case-study-image {
     flex-direction: row;
+   
 }
 
 #cs1 {
@@ -270,7 +271,13 @@ padding-left: 10vw;
 }
 
 /* making about responsive */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1600px) {
+    #header-title {
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 900px) {
     
     .section-one-container {
         display: flex;
@@ -320,7 +327,7 @@ padding-left: 10vw;
     }
     
     #header-title {
-        font-size: 64px;
+        font-size: 54px;
     }
     
     .case-study {
@@ -348,6 +355,7 @@ padding-left: 10vw;
     }
     
     .case-study-text {
+    padding-top: 15vh;
     flex-direction: row;
     margin-left: 15vw;
 }
@@ -366,3 +374,5 @@ padding-left: 10vw;
     }
     
 }
+
+
