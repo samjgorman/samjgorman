@@ -87,8 +87,8 @@ h3 {
 .section-one-container {
     display: flex;
     flex-direction: row;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 15vw;
+    margin-right: 15vw;
 
 }
 
@@ -266,3 +266,47 @@ padding-left: 10vw;
   opacity: 0.5;
 }
 
+/* making about responsive */
+@media only screen and (max-width: 600px) {
+    
+    .section-one-container {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        justify-content: center; 
+
+    }
+    
+    .index{
+    }
+    
+    #about-content{
+        padding: 5vw;
+        margin-left: auto;
+                margin-right: auto;
+
+
+
+    }
+    
+    h1 {
+        font-size: 52px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    #about-image-container{
+margin: auto;
+    }
+    
+    .
+    
+    #about-image {
+    
+    height: 5vh;
+    }
+    
+    
+}
