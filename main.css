@@ -1,9 +1,5 @@
 
-:root{
-    --main-red: #fe938c;
-    --bg-grey: #eeeeee;
-    --dark-blue: #294667;
-}
+
 
 #index {
     margin: 0px;
@@ -32,7 +28,7 @@ ul {
 }
 
 #logo-red{
-    color: var(--main-red);
+    color: #fe938c;
      font-family: Rubik;
       font-weight: 900;
     margin-left: 8vw;
@@ -40,11 +36,11 @@ ul {
 }
 
 #rest-red {
-    color: var(--dark-blue);
+    color: #294667;
 }
 
 #rest-red:hover {
-        color: var(--main-red);
+        color: #fe938c;
 
 }
 
@@ -222,7 +218,7 @@ padding-left: 10vw;
     background-color: #A235B8;
 }
 
-.button::visited {
+.button:visited {
     color: white;
         text-decoration: none;
 
@@ -231,7 +227,7 @@ padding-left: 10vw;
 
 
 .footer {
-    background-color: var(--bg-grey);
+    background-color: #eeeeee;
     padding: 2em;
     font-family: Overpass;
 }
