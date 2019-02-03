@@ -164,13 +164,13 @@ padding: 6vh;
 }
 
 #micro-scholarships {
+padding-top: 35vh;
         
 }
 
 .case-study {
     display: flex;
     flex-direction: row;
-    margin: auto;
     padding-bottom: 10em;
     padding-top: 24vh;
 
@@ -181,6 +181,8 @@ padding: 6vh;
 .case-study-text {
     flex-direction: row;
     margin-left: 10em;
+            width: 20vw;
+
 }
 
 .case-study-image {
@@ -214,6 +216,10 @@ padding-left: 10vw;
     font-family: Open Sans;
     font-weight: 900;
     text-decoration: none;
+}
+
+.button:hover {
+    background-color: #A235B8;
 }
 
 .button::visited {
@@ -297,7 +303,7 @@ padding-left: 10vw;
     }
     
     h1 {
-        font-size: 42px;
+        font-size: 36px;
     }
     
     p {
@@ -310,6 +316,8 @@ padding-left: 10vw;
     
     #about-image-container{
         margin: auto;
+            margin-top: 12vh;
+
     }
     
     
@@ -333,7 +341,7 @@ padding-left: 10vw;
     .case-study {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
 
         
     }
@@ -342,6 +350,7 @@ padding-left: 10vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
     }
     
     #case-image-one {
@@ -361,7 +370,7 @@ padding-left: 10vw;
 }
     
     #micro-scholarships {
-        padding-top: 20vw;
+        padding-top: 10vh;
 }
     
     .button {
